@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+
+    <bean id="userObject" class="com.spring4x_learning.pojo.User">
+        <property name="id" value="1"></property>
+        <property name="username" value="老冯"></property>
+        <property name="password" value="12345678"></property>
+    </bean>
+
+
+
+
+</beans>
